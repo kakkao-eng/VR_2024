@@ -22,9 +22,22 @@ public class GunControi : MonoBehaviour
     public void Shoot()
     {
         Instantiate(bulletPrefab, barrelPos.position, barrelPos.rotation);
-        _audioSource.PlayOneShot( gunSfx ,1);
+    
+        if (gunSfx != null && _audioSource != null)
+        {
+            _audioSource.PlayOneShot(gunSfx, 1);
+        }
+        else
+        {
+            Debug.LogWarning("AudioClip หรือ AudioSource ยังไม่ได้กำหนดใน GunControi!");
+        }
+    
         gunFx.Play();
         print("Shoot!!");
     }
+
+    
+    
+    
     
 }
