@@ -146,14 +146,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 142209999}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071073, y: -0, z: -0, w: 0.70710635}
+  m_LocalRotation: {x: 0.70710677, y: -0.0000005960464, z: 0.7071068, w: 0.00000057369465}
   m_LocalPosition: {x: 0, y: -3.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1761170133}
   m_Father: {fileID: 1554319909}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180}
 --- !u!1 &254331895
 GameObject:
   m_ObjectHideFlags: 0
@@ -2711,7 +2711,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca2aa3e968c31c74d9519d25de65079c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 7807692527613154352, guid: 7286b90cdc3fb654cad19419c4af2de0,
+  bulletPrefab: {fileID: 5034872082026857790, guid: 309f53a0eea68c642a0e49b1f3d51c8d,
     type: 3}
   barrelPos: {fileID: 142210000}
   gunSfx: {fileID: 8300000, guid: 65201ddabb4144f6a8fb9480120b7656, type: 3}
