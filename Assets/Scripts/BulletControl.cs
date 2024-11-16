@@ -24,9 +24,13 @@ public class BulletControl : MonoBehaviour
     {
         if (collision.collider.CompareTag("Target"))
         {
-            _scoreManager.score +=  1;
+            if (_scoreManager != null)
+            {
+                _scoreManager.AddScore(1);
+            }
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }
     }
+
 }
