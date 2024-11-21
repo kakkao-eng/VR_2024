@@ -7201,7 +7201,7 @@ PrefabInstance:
     - target: {fileID: 7165110682489982741, guid: c016e2b342c921f49980176a506f0af8,
         type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Target
       objectReference: {fileID: 0}
     - target: {fileID: 7668919626200263514, guid: c016e2b342c921f49980176a506f0af8,
         type: 3}
@@ -7209,6 +7209,11 @@ PrefabInstance:
       value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 8219824352017795746, guid: c016e2b342c921f49980176a506f0af8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Target
+      objectReference: {fileID: 0}
+    - target: {fileID: 8452400765073567813, guid: c016e2b342c921f49980176a506f0af8,
         type: 3}
       propertyPath: m_TagString
       value: Target
