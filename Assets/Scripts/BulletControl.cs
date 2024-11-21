@@ -6,7 +6,7 @@ using UnityEngine;
 public class BulletControl : MonoBehaviour
 {
     public float speed = 50f;
-    public float lifeTime = 2f;
+    public float lifeTime = 5f;
 
     private Rigidbody rb;
     private ScoreManager _scoreManager;
