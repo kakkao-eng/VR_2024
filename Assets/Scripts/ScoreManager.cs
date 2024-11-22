@@ -20,7 +20,7 @@ public class ScoreManager : MonoBehaviour
 
     private void UpdateScoreText()
     {
-        if (score >= 3)
+        if (score >= 8)
         {
             scoreText.text = "You Win!";
         }
